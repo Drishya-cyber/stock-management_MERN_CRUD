@@ -1,0 +1,47 @@
+/* Navbar.css */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .nav-link {
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #0d6efd; /* Bootstrap primary color */
+  }
+  
+  .search-bar input {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    border: 2px solid #0d6efd;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .search-bar input:focus {
+    border-color: #0056b3; /* Darker shade of primary */
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+  }
+  
+  .search-bar button {
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  

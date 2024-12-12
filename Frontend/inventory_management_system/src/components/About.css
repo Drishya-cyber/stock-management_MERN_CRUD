@@ -1,0 +1,71 @@
+/* Basic container styling */
+.about-container {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  /* Heading Styles */
+  h1, h2 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  /* Paragraph Styling */
+  .lead {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* List of Features */
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Tech Icons */
+  .tech-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  
+  .tech-icon + h4 {
+    color: #007bff;
+  }
+  
+  .tech-icon + p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Footer Styling */
+  .footer-text {
+    font-size: 0.9rem;
+    color: #888;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  .large-tech-icon {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
